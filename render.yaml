@@ -4,5 +4,5 @@ services:
     env: docker
     plan: free
     region: oregon
-    branch: master
+    branch: main
     numInstances: 1
