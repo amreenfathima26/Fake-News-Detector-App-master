@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: fake-news-detector
+    env: docker
+    plan: free
+    region: oregon
+    branch: master
+    numInstances: 1
